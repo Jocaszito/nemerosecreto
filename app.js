@@ -1,5 +1,5 @@
 let listaDeNúmerosSorteados = [];
-let numerolimte = 10
+let numerolimte = 15
 let numeroSecreto = gerarNúmeroAleatorio();
 let tentativas = 1;
 
@@ -12,7 +12,7 @@ function exibirTextos(tag, texto) {
 
 function textoInicial() {
     exibirTextos('h1', 'Guess Number')
-    exibirTextos('p' , 'Digite Um Número entre 1 e 10 aí, bb') 
+    exibirTextos('p' , 'Digite Um Número entre 1 e 15 aí, bb') 
 }
 
 textoInicial();
